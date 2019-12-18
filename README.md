@@ -43,8 +43,7 @@ A web application for young people, and who want to find the ideal other half in
 2. Install all dependencies with NPM.
 
     ```bash
-    $git clone https://github.com/Felixwhwang/soulmate
-    $cd soulmate
+    $npm install
     ```
 
 3. Create you own table in local phpMyAdmin named `soulMate` with `utf8mb4_unicode_ci`.
