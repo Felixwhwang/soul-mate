@@ -53,7 +53,14 @@ A web application for young people, and who want to find the ideal other half in
     ```bash
     $npm run db:import
     ```
-5. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
+
+5. Build all necessary js files.
+
+    ```bash
+    $npm run build
+    ```    
+
+6. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
 
     ```bash
     $npm run dev
