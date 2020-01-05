@@ -19,6 +19,7 @@ switch ($request['path']) {
   case '/api/profile':
   case '/api/change-password':
   case '/api/edit':
+  case '/api/reset':
     require_once "..${request['path']}.php";
   default:
     throw new ApiError("Cannot ${request['method']} ${request['path']}", 404);

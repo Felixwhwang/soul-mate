@@ -28,6 +28,12 @@ export default class App extends React.Component {
     this.setView = this.setView.bind(this);
   }
 
+  componentDidMount() {
+    fetch('/api/reset')
+      .then(res => res.json())
+      .catch(err => alert('getMatchData error', err));
+  }
+
   setView(name, params, info) {
     const view = {
       name,
