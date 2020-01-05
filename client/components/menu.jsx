@@ -44,7 +44,7 @@ export default class Menu extends React.Component {
             timeout={1300}
           >
             <div
-              className="menu-text"
+              className="menu-text pointer"
               onClick={() => this.props.setView(
                 'moments',
                 this.props.currentUser
@@ -62,7 +62,7 @@ export default class Menu extends React.Component {
             timeout={1300}
           >
             <div
-              className="menu-text"
+              className="menu-text pointer"
               onClick={() => this.props.setView(
                 'like-page',
                 this.props.currentUser
@@ -80,7 +80,7 @@ export default class Menu extends React.Component {
             timeout={1300}
           >
             <div
-              className="menu-text"
+              className="menu-text pointer"
               onClick={() => this.props.setView(
                 'discover-page',
                 this.props.currentUser
@@ -98,7 +98,7 @@ export default class Menu extends React.Component {
             timeout={1300}
           >
             <div
-              className="menu-text"
+              className="menu-text pointer"
               onClick={() => this.props.setView(
                 'message-history',
                 this.props.currentUser
@@ -115,7 +115,7 @@ export default class Menu extends React.Component {
             classNames="menu-fade-edit"
             timeout={1300}
           >
-            <div className="menu-text"
+            <div className="menu-text pointer"
               onClick={() => this.props.setView(
                 'edit',
                 this.props.currentUser,
@@ -133,7 +133,7 @@ export default class Menu extends React.Component {
             classNames="menu-fade-password"
             timeout={1300}
           >
-            <div className="menu-text"
+            <div className="menu-text pointer"
               onClick={() =>
                 this.props.setView(
                   'change-password',
@@ -153,7 +153,7 @@ export default class Menu extends React.Component {
             classNames="menu-fade-logout"
             timeout={1300}
           >
-            <div className="menu-text"
+            <div className="menu-text pointer"
               onClick={() =>
                 this.props.setView(
                   'main',
