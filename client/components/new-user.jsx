@@ -114,14 +114,14 @@ export default class NewUser extends React.Component {
 
   render() {
     return (
-      <div className="container pb-2">
+      <div className="pb-2">
         <div className="bg-bar sticky-top d-flex justify-content-left align-items-center">
           <i
             className="fas fa-angle-left fas-size p-2"
             onClick={this.backHandler.bind(this)}></i>
         </div>
 
-        <form onSubmit={this.uploadHandler.bind(this)}>
+        <form onSubmit={this.uploadHandler.bind(this)} className="container">
           <div className="form-group row">
             <img src={this.state.newUser.images} className="photo-size col-12" />
           </div>
@@ -134,7 +134,7 @@ export default class NewUser extends React.Component {
           </div>
         </form>
 
-        <form onSubmit={this.createHandler.bind(this)}>
+        <form onSubmit={this.createHandler.bind(this)} className="container">
           <div className="form-group">
             <label htmlFor="email">Email</label>
             <input type="email" className="form-control form-rounded input" id="email"

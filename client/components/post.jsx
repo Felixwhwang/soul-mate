@@ -83,13 +83,13 @@ export default class UserUploadPhoto extends React.Component {
 
   render() {
     return (
-      <div className="container bg-bar pb-2">
-        <div className="d-flex justify-content-left align-items-center">
+      <div className="pb-2">
+        <div className="bg-bar d-flex justify-content-left align-items-center">
           <i className="fas fa-angle-left fas-size p-2"
             onClick={() => this.props.setView('moments', this.props.currentUser)}></i>
         </div>
 
-        <form onSubmit={this.uploadHandler.bind(this)}>
+        <form onSubmit={this.uploadHandler.bind(this)} className="container">
           <div className="form-group row">
             <img src={this.state.post.picture} className=" photo-size col-12" />
           </div>
@@ -103,7 +103,7 @@ export default class UserUploadPhoto extends React.Component {
           </div>
         </form>
 
-        <form onSubmit={this.postHandler.bind(this)}>
+        <form onSubmit={this.postHandler.bind(this)} className="container">
           <div className="form-group">
             <label htmlFor="iAppreciate">What do you want to say now?</label>
             <textarea rows="8" className="form-control form-rounded input"
