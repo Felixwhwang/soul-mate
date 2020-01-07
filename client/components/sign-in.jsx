@@ -4,8 +4,8 @@ export default class SignIn extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: '',
-      password: '',
+      email: 'wenhao@soulmate.com',
+      password: 'pass',
       passwordCheck: ''
     };
   }
@@ -51,9 +51,9 @@ export default class SignIn extends React.Component {
       <div className="container bg-bar main-bg">
         <div className="d-flex justify-content-center row align-content-center full-view-height add-bot-margin">
           <h1 className="title col-12 mt-5">Soul Mate</h1>
-          <div className="mt-2 slogan text-center">Soulmate is an overused term, but a true soul connection is very rare, and very real.</div>
-          <form onSubmit={this.getUserInfo.bind(this)} className="col-10">
-            <div className="form-group">
+          <div className="mt-2 slogan text-center mb-3">Soulmate is an overused term, but a true soul connection is very rare, and very real.</div>
+          <form onSubmit={this.getUserInfo.bind(this)} className="col-10 mb-3">
+            <div className="form-group placeholder-color">
               <input
                 name="email"
                 value={this.state.email}
@@ -66,7 +66,7 @@ export default class SignIn extends React.Component {
                 required />
               <div className="invalid-feedback">Cannot be empty!</div>
             </div>
-            <div className="form-group mt-4">
+            <div className="form-group mt-4 placeholder-color">
               <input
                 name="password"
                 value={this.state.password}
@@ -87,6 +87,12 @@ export default class SignIn extends React.Component {
                 onClick={this.backHandler.bind(this)}>Back</button>
             </div>
           </form>
+          <div className="demo-bg">
+            <div className="text-secondary">Demo Notice</div>
+            <div className="text-secondary">email: wenhao@soulmate.com</div>
+            <div className="text-secondary">password: pass</div>
+            <div className="text-secondary">All data will be reset when refresh the page.</div>
+          </div>
         </div>
       </div>
     );

@@ -68,11 +68,9 @@ export default class ChangePassword extends React.Component {
         classNames="fade"
         timeout={500}
       >
-        <div className="container bg-bar">
+        <div className="container main-bg">
           <div className="d-flex justify-content-center row align-content-center full-view-height">
             <h1 className="title col-12">Soul Mate</h1>
-            <div className="mt-3 slogan">Soulmate is an overused term,</div>
-            <div className="mb-5 slogan">but a true soul connection is very rare, and very real.</div>
             <form
               className="col-10"
               onSubmit={this.updatePassword.bind(this)}

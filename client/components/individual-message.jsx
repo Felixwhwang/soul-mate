@@ -110,7 +110,7 @@ export default class IndividualMessage extends React.Component {
             onClick={() => this.props.setView('message-history', this.props.userId.currentUser)}></i>
         </div>
 
-        <div className="container fix-overlap">
+        <div className="container fix-overlap mt-2">
           <TransitionGroup>
             {this.state.messages.map(cur => {
               const currentMessage = cur.idFrom === currentUserId
