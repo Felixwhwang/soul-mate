@@ -29,15 +29,14 @@ A web application for young people, and who want to find the ideal other half in
 - User can use app more conveniently through user menu.
 
 ## Preview
+![soulmate](https://user-images.githubusercontent.com/31264160/71944564-12f6d380-31bc-11ea-9ee7-d4ac3c3ee3b3.gif)
 
 ## Live Demo
 Try the application live at https://soulmate.wenhaowang.net
 
-**Windows user:** ctrl + shift + i to open dev tools
+**Windows/Linux user:** Ctrl + Shift + i to open dev tools
 
-**Mac OS user:** command + shift + m to open dev tools
-
-**Or:** right click in Browser and click inspect
+**Mac OS Chrome user:** ⌘ + Shift + C followed by ⌘ + Shift + M to open dev tools
 
 preview in iPhone X for optimal viewing
 
