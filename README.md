@@ -28,6 +28,19 @@ A web application for young people, and who want to find the ideal other half in
 - User can safety logout.
 - User can use app more conveniently through user menu.
 
+## Preview
+
+## Live Demo
+Try the application live at https://soulmate.wenhaowang.net
+
+**Windows user:** ctrl + shift + i to open dev tools
+
+**Mac OS user:** command + shift + m to open dev tools
+
+**Or:** right click in Browser and click inspect
+
+preview in iPhone X for optimal viewing
+
 ## Development
 ### System Requirements
 - npm 6 or higher
